@@ -21,10 +21,9 @@ public class UserData {
         return this.password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassword(String password1) {
+        this.password = password1;
     }
-
     public String toString() {
         return "[login=" + login + ", password=" + password + "]";
     }
